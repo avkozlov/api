@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac98366-2817-4787-b8a5-e6106fd2351a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static-assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/json.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/settings.py" afterPath="$PROJECT_DIR$/api/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/urls.py" afterPath="$PROJECT_DIR$/api/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yandexapi/views.py" afterPath="$PROJECT_DIR$/yandexapi/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="api.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421655269064" ignored="false" />
-    <file path="/views.py" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421670262733" ignored="false" />
+    <file path="/views.py" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421681506498" ignored="false" />
     <file path="/urls.py" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421404613926" ignored="false" />
-    <file path="/base.html" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421404802905" ignored="false" />
-    <file path="/index.html" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421670033051" ignored="false" />
-    <file path="/settings.py" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421406031288" ignored="false" />
+    <file path="/base.html" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421677606403" ignored="false" />
+    <file path="/index.html" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421676067529" ignored="false" />
+    <file path="/settings.py" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421676440060" ignored="false" />
+    <file path="/json.html" changelist="dac98366-2817-4787-b8a5-e6106fd2351a" time="1421680475287" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +52,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yandexapi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.3244207">
+            <state line="51" column="26" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.74452555">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -47,10 +60,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="json.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/json.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static-assets/bootstrap/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="35" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+            <state line="93" column="35" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +90,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="104" selection-end="104" vertical-scroll-proportion="-5.8846154">
+            <state line="13" column="14" selection-start="147" selection-end="147" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
@@ -77,8 +108,12 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-6.5384617">
-              <folding />
+            <state line="17" column="7" selection-start="410" selection-end="410" vertical-scroll-proportion="-11.115385">
+              <folding>
+                <marker date="1421677607265" expanded="true" signature="21:409" placeholder="..." />
+                <marker date="1421677607265" expanded="true" signature="28:213" placeholder="..." />
+                <marker date="1421677607265" expanded="true" signature="220:401" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +121,10 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +147,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/api/settings.py" />
+        <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/api/settings.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/json.html" />
         <option value="$PROJECT_DIR$/yandexapi/views.py" />
       </list>
     </option>
@@ -207,6 +245,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static-assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static-assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -220,6 +298,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\api\static-assets\bootstrap\js" />
+      <recent name="C:\project\api\static-assets" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.api">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -451,35 +535,36 @@
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1421677607265" expanded="true" signature="21:409" placeholder="..." />
+            <marker date="1421677607265" expanded="true" signature="28:213" placeholder="..." />
+            <marker date="1421677607265" expanded="true" signature="220:401" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-assets/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-6.5384617">
-          <folding />
+        <state line="12" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -490,16 +575,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="35" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-assets/bootstrap/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="7756" selection-end="7756" vertical-scroll-proportion="0.49635038">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="410" selection-end="410" vertical-scroll-proportion="-11.115385">
+          <folding>
+            <marker date="1421677607265" expanded="true" signature="21:409" placeholder="..." />
+            <marker date="1421677607265" expanded="true" signature="28:213" placeholder="..." />
+            <marker date="1421677607265" expanded="true" signature="220:401" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="104" selection-end="104" vertical-scroll-proportion="-5.8846154">
+        <state line="13" column="14" selection-start="147" selection-end="147" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/json.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yandexapi/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.3244207">
+        <state line="51" column="26" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.74452555">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

@@ -1,10 +1,9 @@
 from django.shortcuts import render
+from django.template import RequestContext
 from time import gmtime, strftime
-
-
-# Create your views here.
 from django.shortcuts import render_to_response
 import json, urllib.request
+from django.http import HttpResponse, JsonResponse
 
 
 def getResponse(request):
@@ -43,12 +42,15 @@ def getResponse(request):
     jdata = json.dumps(data, ensure_ascii=False).encode('utf8')
     jdataSummary = json.dumps(dataSummary, ensure_ascii=False).encode('utf8')
 
+
     response = urllib.request.urlopen(url, jdata)
     responseSummary = urllib.request.urlopen(url, jdataSummary)
 
     final = response.read().decode('utf8')
     finalSummary = responseSummary.read().decode('utf8')
 
+    ff = json.dumps(final)
 
-    return render_to_response('index.html', {'response' : final, 'summary': finalSummary, 'timet': timer })
+    return HttpResponse( ff, content_type="application/json")
+    #return render_to_response('json.html', {'response' : final, 'summary': finalSummary, 'timet': timer }, context_instance=RequestContext(request))
 
