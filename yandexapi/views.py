@@ -51,6 +51,9 @@ def getResponse(request):
 
     ff = json.dumps(final)
 
-    return HttpResponse( ff, content_type="application/json")
-    #return render_to_response('json.html', {'response' : final, 'summary': finalSummary, 'timet': timer }, context_instance=RequestContext(request))
+    #return HttpResponse( ff, content_type="application/json")
+    return render_to_response('index.html', {'response' : final, 'summary': finalSummary, 'timet': timer }, context_instance=RequestContext(request))
+
+def home(request):
+     return render_to_response('json.html', {}, context_instance=RequestContext(request))
 

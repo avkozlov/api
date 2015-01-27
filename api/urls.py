@@ -5,7 +5,8 @@ from django.conf.urls.static import static
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'yandexapi.views.getResponse', name='home'),
+    url(r'^api$', 'yandexapi.views.getResponse', name='api'),
+    url(r'^$', 'yandexapi.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),

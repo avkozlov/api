@@ -1,1 +1,25 @@
-{{ response }}
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+        <div ng-controller="JsonController as store">
+       <div class="list-group-item" ng-repeat="product in store.products">
+          <div>
+                {% verbatim %}
+          <h1>{{ product }}</h1>
+                {% endverbatim %}
+
+
+          </div>
+
+        </div>
+    </div>
+    {{'21353215434' | date:'MM/dd/yyyy @ h:mma'}}
+
+
+{% endblock %}
+
+
+
+

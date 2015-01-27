@@ -3,7 +3,9 @@
     app = angular.module('apper', []);
 
 
-    app.controller('PhoneListCtrl', function () {
+
+
+   app.controller('PhoneListCtrl', function () {
       this.phones = gems;
 
 
@@ -43,6 +45,21 @@
 		};
 		// body...
 	});
+
+    app.controller('JsonController',['$http', function($http){
+
+        var store = this;
+
+
+        $http.get('http://127.0.0.1:8000/api').success(function(data){
+
+            store.products = data;
+
+        }).error(function(){
+
+            });
+
+    }]);
 
 	app.controller('PanelController', function  () {
 
